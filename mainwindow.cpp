@@ -19,6 +19,7 @@ MainWindow::~MainWindow()
 void MainWindow::reset() {
     this->ui->lineEdit->clear();
     this->ui->lineEdit->setDisabled(false);
+    this->ui->lineEdit->setFocus();
 }
 
 bool cmp(const QString &substr, const QString &str, int &index) {
