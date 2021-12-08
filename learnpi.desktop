@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=π
+Version=1.0
+Type=Application
+Comment=Learn decimals of pi
+Categories=Education;Science;Math
+TryExec=pi
+Exec=pi
